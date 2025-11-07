@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stefanorix Ultra | Luxury Intelligent Design</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="container-fluid">
+    <ul>
+      <li><strong>👑 Stefanorix Ultra</strong></li>
+    </ul>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact" role="button">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Section -->
+  <main class="container">
+    <div class="grid">
+      <section>
+        <hgroup>
+          <h2>Welcome to Stefanorix Ultra</h2>
+          <h3>Luxury | Intelligence | Technology</h3>
+        </hgroup>
+        <p>Stefanorix Ultra is a symbol of boldness, precision, and luxury. We design, automate, and innovate using AI, tech, and creativity. Our mission is to turn ideas into futuristic realities — powered by elegance and intelligence.</p>
+        
+        <figure>
+          <img class="portrait" src="https://i.ibb.co/mrVXHSsJ/file-000000006c54624390e91ad8b5d90e69-1.png" alt="Matthew Chiemelie - Stefanorix" />
+          <figcaption><a href="#" target="_blank">Matthew Chiemelie, Founder</a></figcaption>
+        </figure>
+
+        <h3>About Stefanorix Ultra</h3>
+        <p id="about">Stefanorix Ultra represents luxury design fused with intelligent automation. Founded by <strong>Matthew Chiemelie</strong>, this brand pushes the boundary between creativity and advanced technology. Every project reflects discipline, vision, and smart innovation.</p>
+
+        <h3>Our Services</h3>
+        <p id="services">We specialize in high-end web design, AI automation, branding, and creative digital experiences. Each project carries a signature touch of boldness, smart systems, and unmatched sophistication.</p>
+      </section>
+    </div>
+  </main>
+
+  <!-- Subscribe Section -->
+  <section aria-label="Subscribe">
+    <div class="container">
+      <article>
+        <hgroup>
+          <h2>Stay Connected</h2>
+          <h3>Join the Stefanorix Ultra Network</h3>
+        </hgroup>
+        <form action="https://formspree.io/f/mjkpyjzd" method="POST" class="grid">
+          <input type="text" id="firstname" name="firstname" placeholder="Your name" aria-label="First name" required />
+          <input type="email" id="email" name="email" placeholder="Your email" aria-label="Email" required />
+          <button type="submit">Join Now</button>
+        </form>
+      </article>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="container">
+    <small>
+      <a href="#">© 2025 Stefanorix Ultra</a> • 
+      <a href="#">Designed by Matthew Chiemelie</a>
+    </small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
