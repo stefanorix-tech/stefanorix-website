@@ -1,0 +1,106 @@
+/* === Stefanorix Ultra | Luxury Design Theme === */
+
+:root {
+  --gold: #d4af37;
+  --black: #0b0b0b;
+  --light: #f4f4f4;
+  --muted: #bfbfbf;
+}
+
+body {
+  background-color: var(--black);
+  color: var(--light);
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+nav {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-bottom: 1px solid var(--gold);
+  backdrop-filter: blur(8px);
+}
+
+nav strong {
+  color: var(--gold);
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+}
+
+nav a {
+  color: var(--light);
+  transition: 0.3s ease;
+}
+
+nav a:hover {
+  color: var(--gold);
+  text-shadow: 0 0 10px var(--gold);
+}
+
+/* Main Content */
+main {
+  padding: 3rem 1rem;
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+h2, h3 {
+  color: var(--gold);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+p {
+  color: var(--muted);
+  line-height: 1.8;
+  font-size: 1.05rem;
+}
+
+/* Portrait */
+.portrait {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 3px solid var(--gold);
+  object-fit: cover;
+  margin-top: 1rem;
+  box-shadow: 0 0 25px rgba(212, 175, 55, 0.4);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.portrait:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px rgba(212, 175, 55, 0.7);
+}
+
+/* Buttons */
+button, a[role="button"] {
+  background-color: var(--gold);
+  color: var(--black);
+  border: none;
+  border-radius: 6px;
+  padding: 0.75rem 1.5rem;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+button:hover, a[role="button"]:hover {
+  transform: scale(1.07);
+  box-shadow: 0 0 20px var(--gold);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  border-top: 1px solid rgba(255, 215, 0, 0.1);
+  padding: 2rem 0;
+  color: var(--muted);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
